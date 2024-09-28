@@ -1,0 +1,18 @@
+<div class="gallery ">
+                <% for(gallery of galleries){ %>
+                 
+                    <img src="<%=gallery.img%>" style="height: 200px ;width: 200px;">
+                    <% }%>
+        </div>
+
+
+
+
+
+         border:2px solid blue;
+    width:100% !important;
+    min-height:60vh;
+    background-repeat:repeat-y;
+    position:relative;
+    color:white;
+    text-shadow:2px 2px 2px rgb(0,0,0,.2);

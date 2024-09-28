@@ -1,0 +1,316 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    max-width: 100%;
+   font-family: " Poppins",sans-serif !important ;
+    display:flex;
+    flex-direction: column;
+    background-color:#ffffff !important;
+    /* min-height: 100vh !important;ithu apply cheythappo page 100vh apply aay athond footer bottom il stick aaay irikkunnn */
+}
+.container-fluid{
+    flex:1;
+}
+.container-home{
+    width:100%;
+    /* border:2px solid rgb(247, 5, 194); */
+    display:flex;
+    flex-wrap:wrap !important;
+
+}
+/* Nav-Bar */
+nav,.navbar{
+    background-color:#E00035 !important;
+    height: 6rem;
+}
+
+
+.nav-link{
+    color:#fcfcfc !important;
+    opacity: 0.9;
+   
+}
+.nav-link:hover{
+   transition: 0.5s;
+    opacity: 1.5;
+    
+}
+
+.collapse{
+    display:flex;
+    justify-content:center;
+    font-size:x-large;
+
+  
+
+ 
+   
+
+}
+.show{
+    background-color:rgba(255, 255, 255, 0.85);
+    text-align:center !important;
+    height: 400px !important;
+    /* width: 20rem !important; */
+    transition: 0.5s;
+
+
+   
+
+}
+
+
+button{
+    box-shadow: none !important;
+
+}
+
+/* footer */
+.f-info{
+    margin-top:5rem;
+    min-height:7rem;
+    background-color:#E00035 ;
+    color:white;
+    /* display: flex;
+    flex-wrap:wrap;  */
+    /* align-items:center;
+    text-align:center; */
+    /* padding: 1rem; */
+}
+
+.f-contact{
+   font-size:10px;
+}
+ 
+/* history-home*/
+.history-text a{
+    color:red;
+    text-decoration: none;
+    font-weight:lighter;
+    font-family:"Poppins"
+}
+.history-text a:hover{
+    text-decoration:underline;
+}
+
+
+
+/* home page */
+
+
+    /* Slider-Events */
+.events{
+    /* border:1px solid brown; */
+    width:100%;
+    display:flex;
+    flex-wrap: nowrap;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.slider-text{
+    background-color:#FAF5E4 !important;
+    display: flex;
+    flex-wrap:wrap;
+    align-content:center;
+    margin-left:1rem;
+
+    
+}
+.slider-text h3{
+    margin-left: 3rem;
+    margin-top:2rem;
+}
+.slider-text p{
+    margin-left: 3rem;
+}
+
+/* HOME-HISTORY */
+
+.history-home{
+    /* border:2px solid rgb(6, 179, 247); */
+    margin:0;
+    padding:0;
+}
+
+
+/*  */
+/*history-home*/
+
+
+#image{
+    padding: 0;
+    border-radius:5%;
+    box-shadow: 10px 10px 10px #aba8a9;
+    margin-top:2rem;
+    margin-right:2rem;
+    margin-left:.5rem;
+    
+}
+/* EVENTS */
+
+
+.event-img{
+    height: 500px;
+    width:300px;
+    padding: 2px;
+}
+
+/* slider-events */
+
+.slider-event{
+    /* background-color: #E00035; */
+    width: 80rem !important;
+    display: flex;
+    justify-content: center;
+
+}
+
+.slider-img img{
+    width:600px !important;
+    height: 400px;
+   padding:0;
+
+}
+.slider-text{
+    
+    background-color:#E00035;
+
+}
+
+
+
+/* OFFERINGS */
+
+.offerings{
+    text-align:justify;
+    width:100%;
+}
+.offerings:hover{
+    box-sizing: content-box;
+    box-shadow:5px 3px #626262 !important;
+}
+
+h1{
+    text-align: center;
+}
+
+/* TEMPLE HISTORY */
+.mainhead-history{
+    font-size: 2rem;
+    text-align:center;
+    width: 100%;
+    font-family: "Nunito" !important;
+    font-weight:700;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.img-history{
+    width: 360px;
+    height:358px;
+    float: left;
+    margin-right:2rem;
+    margin-bottom:2rem;
+    border-radius:2%;
+}
+.history-card{
+    background-color:white;
+    border-radius: 2%;
+}
+
+
+
+button{
+    opacity: 1 !important;
+    color:yellow !important;
+    
+}
+button:hover{
+   color:yellow !important;
+}
+/* background-image */
+
+.background-image{
+   background-image:url('/images/background.jpeg'); 
+   height:100vh  !important; 
+   background-size:cover;
+   color:#e1d4d4;
+   text-shadow:black;
+   background-attachment:fixed; /* parallax effect */
+  
+
+
+}
+.container h1{
+    font-size:4rem;
+   text-shadow:2px 5px black;
+   padding-top:25%;
+    
+}
+
+
+
+/* gallery */
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+   justify-content:center;
+}
+.gallery img{
+    margin-bottom:2rem;
+    margin-left:2rem;
+   border-radius: 7px;
+ 
+}
+
+/* contacts */
+
+.contact{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:3rem !important;
+    /* margin-bottom:4rem; */
+}
+ .address,.email,.phone{
+    display: flex;
+    flex-direction: column;
+
+}
+.contact i{
+    font-size:5rem;
+}
+#text{
+    text-align:center; 
+    font-size:1.3rem;
+     font-family: "Hachi Maru Pop"; 
+}
+
+/* footer */
+.footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding:1rem;
+    flex-wrap:wrap;
+}
+
+    @media only screen and (max-width: 450px) {
+        .container h1 {
+          font-size: 50px;
+        }
+        .collapse{
+            margin-left:30%; 
+            height: 100%;
+           
+        }
+        .show{
+            margin-top:19px;
+            width:100%;
+            text-align:left !important;
+        }
+        .nav-link{
+            color:#E00035 !important;
+        }
+      
+      }

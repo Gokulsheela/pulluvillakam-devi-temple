@@ -1,0 +1,24 @@
+<% layout("/layouts/boilerplate")%>
+
+<body>
+    <br>
+    <div class="container-offerings ">
+        <h1>Main Offerings at Pulluvillakam <hr style="width:23rem; margin: auto; margin-top: 5px; background-color: #fcda01; height: 4px;"
+            ></h1><br><br>
+            
+        <div class="offers col row-cols-lg-1">
+            <% for(offer of offers) { %>
+                <div class=" offer card mb-3 ms-3  ">
+                    <div class="offerings card-body">
+                        <h5 class="card-title"><b><%=offer.title%></b></h3>
+                            <p class="card-text"><%=offer.content%></p>
+                    </div>
+                </div>
+            <%}%>
+        </div>
+        
+    </div>
+    
+       
+    
+ </body>   
